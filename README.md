@@ -47,7 +47,7 @@ Monitors SOCKS and HTTP proxies via simple HTTP requests — useful both for che
 ```yaml
 services:
   proxy-checker:
-    image: ghcr.io/yourusername/proxy-checker:latest
+    image: ghcr.io/coyotle/proxy-checker:latest
     restart: unless-stopped
 ```
 
